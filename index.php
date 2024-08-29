@@ -74,19 +74,26 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <?php require ('includes/modalhowtoorder.php')?>
             <!-- about -->
-
+             <?php require ('includes/about.php')?>
+             <hr>
             <!-- ticket -->
             <?php require ('includes/ticket.php')?>
+            <hr>
             <!-- layour-->
             <?php require ('includes/layout.php')?>
+            <hr>
             <!-- gallery -->
             <?php require ('includes/gallery.php')?>
+            <hr>
 
             <!-- footer -->
             <?php include("includes/footer.php") ?>
         </div>
     </div>
+    <script src="asset/js/main.js"></script>
 </body>
 
 </html>

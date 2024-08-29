@@ -1,7 +1,7 @@
-<div id="ticket" style="display: flex; flex-direction: row; gap: 50px; margin:20px">
+<div style="display: flex; flex-direction: row; gap: 50px; margin:20px 50px 60px 50px; padding-top: 80px;" id="ticket">
     <div style="width: 60%;">
-        <div style="display: flex; flex-direction:column; gap: 10px; margin: 30px;">
-            <h4>Gold vip</h4>
+        <div style="display: flex; flex-direction:column; gap: 10px; margin: 30px; font-family: 'Montserrat', serif;">
+            <h4 style="font-size: 30px; font-weight: 800;">Gold vip</h4>
             <img src="asset/img/tiket.jfif" alt="">
             <div style="padding: 20px; border: orange 2px solid;">
                 <div style="border-bottom: 2px orange solid;">
@@ -41,10 +41,10 @@
             </div>
         </div>
     </div>
-    <div style="width: 40%; display: flex; flex-direction: column; gap: 15px;">
-        <h1 style="border-bottom: 2px orange solid; text-align: center;">Ticket and merchandise</h1>
+    <div style="width: 40%; display: flex; flex-direction: column; gap: 15px; font-family: 'Montserrat', serif">
+        <h1 style="border-bottom: 2px orange solid; text-align: center; ">Ticket and merchandise</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quam ad omnis. Sequi, eligendi officia minima officiis quasi itaque voluptate facere vitae est!</p>
-        <button data-modal="modalhowtoorder" class="modal-btn" style="margin-left: auto; height: 30px; padding: 0 20px; width: 200px; margin: 10px; background-color: blue; color: #fff;">How to order</button>
+        <button data-modal="modalhowtoorder" class="modal-btn" style="float: right; margin-left: auto; height: 30px; padding: 0 20px; width: 200px; margin: 10px; background-color: blue; color: #fff;">How to order</button>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquid illo alias porro doloremque. Voluptatum voluptas unde facere suscipit sequi ullam pariatur!</p>
         <div style="display: flex; flex-direction: row; gap: 20px; padding: 10px; border-bottom: gray 2px solid;">
             <img style="object-fit: cover; width: 100px;" src="asset/img/sonic.jpg" alt="">

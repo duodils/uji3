@@ -1,6 +1,6 @@
 <div class="" id="gallery">
     <div class="gallery">
-        <h1>Bruno Mars Documentation</h1>
+        <h1 style="font-family: 'Montserrat', serif;">Bruno Mars Documentation</h1>
         <div class="content">
             <video width="500px" height="300px" controls>
                 <source src="asset/video/vid1.mp4" type="video/mp4">
