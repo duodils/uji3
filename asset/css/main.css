@@ -32,3 +32,311 @@ html{
     padding: 0 20px;
     box-sizing: border-box;
 }
+
+.nav .logo{
+    width: 100px;
+    height: auto;
+}
+
+.nav .user{
+    width: 40px;
+    height: auto;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.ul-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    color: white;
+}
+
+.ul-item li{
+
+    list-style: none;
+}
+
+.ul-item li a{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Lusitana', serif;
+    text-decoration: none;
+}
+
+/* Home */
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    gap: 110px;
+    z-index: -1;
+    position: relative;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.bg-home{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.foto-home{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.foto-home .foto-bruno{
+    max-width: 700px;
+    min-width: 550px;
+    top: 300px;
+    position: relative;
+}
+
+.content-home{
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+.content-home .subtitle{
+    font-size: 2.5rem;
+    font-family: 'Rowdies', serif;
+    color: yellow;
+    letter-spacing: 0.5rem;
+    line-height: 0.0;
+}
+
+.content-home .title{
+    font-size: 8rem;
+    font-family: 'Karantina', serif;
+    color: white;
+}
+
+.content-home .location{
+    font-size: 2rem;
+    font-family: 'League Spartan', serif;
+    color: yellow;
+    letter-spacing: 1rem;
+    border-bottom: yellow 1px solid;
+    padding-bottom: 0.3rem;
+}
+
+.content-home .informasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.content-home .informasi p{
+    font-size: 30px;
+    color: white;
+    width: 400px;
+    font-family: 'League Spartan', serif;
+    letter-spacing: 1rem;
+}
+
+/* SUBHOME */
+
+.sub-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.sub-home .content-1{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.sub-home .content-1 .deskripsi{
+    width: 90%;
+}
+
+.sub-home .content-1 .deskripsi h1{
+    font-size: 30px;
+    font-family: 'Montserrat', serif;
+    font-weight: 600;
+    color: purple;
+}
+
+.sub-home .content-1 .deskripsi p{
+    font-size: larger;
+    font-family: 'Montserrat', serif;
+    margin-top: 10px;
+}
+
+.sub-home .content-1 .deskripsi .button{
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: yellow 1px solid;
+    background-color: white;
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    float: right;
+    z-index: 1;
+    position: relative;
+}
+
+.album{
+    display: flex;
+    position: relative;
+    top: -50px;
+}
+
+.judul-album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.judul-album span{
+    font: 20px;
+    font-weight: 900;
+    font-family: 'Montserrat' ,serif;
+    color: yellow;
+    padding-top: 25px;
+}
+
+.album .foto-album{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 160px)
+}
+
+.album .foto-album .satu{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.album .foto-album .dua{
+    width: 150px;
+    margin-top: auto;
+    margin-left: 3rem;
+}
+
+.album .foto-album .tiga{
+    width: 150px;
+    margin-top: 10px;
+}
+
+.album .foto-album .empat{
+    width: 180px;
+    margin-top: 10px;
+}
+
+.sub-home .content-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.sub-home .content-2 .foto-bruno{
+    width: 100%
+}
+
+.sub-home .content-2 .foto-bruno img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+    box-shadow: 20px -30px #afafaf;
+}
+
+.sub-home .content-2 .deskripsi{
+    text-align: end;
+}
+
+.sub-home .content-2 .deskripsi h2{
+    font-size: 2rem;
+    font-family: 'Montserrat', serif;
+    font-weight: 900;
+}
+
+.sub-home .content-2 .deskripsi p{
+    font-family: 'Montserrat', serif;
+}
+
+.sub-home .content-2 .deskripsi h1{
+    font-size: 5rem;
+    font-weight: 900;
+    background-image: url('../img/tim.jpg');
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 1;
+    margin-top: 1rem;
+    font-family: 'Montserrat', serif;
+}
+
+/* LAYOUT */
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.layout .judul{
+    text-align: center;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.isi .stadion{
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* GALLERY */
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.gallery .content{
+    display: flex;
+    gap: 20px;
+}
