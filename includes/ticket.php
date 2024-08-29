@@ -2,7 +2,7 @@
     <div style="width: 60%;">
         <div style="display: flex; flex-direction:column; gap: 10px; margin: 30px;">
             <h4>Gold vip</h4>
-            <img src="assets/img/tiket.jfif" alt="">
+            <img src="asset/img/tiket.jfif" alt="">
             <div style="padding: 20px; border: orange 2px solid;">
                 <div style="border-bottom: 2px orange solid;">
                     <div style="align-items: center;display: flex; justify-content: space-between;">
@@ -39,18 +39,18 @@
         <button data-modal="modalhowtoorder" class="modal-btn" style="margin-left: auto; height: 30px; padding: 0 20px; width: 200px; margin: 10px; background-color: blue; color: #fff;">How to order</button>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquid illo alias porro doloremque. Voluptatum voluptas unde facere suscipit sequi ullam pariatur!</p>
         <div style="display: flex; flex-direction: row; gap: 20px; padding: 10px; border-bottom: gray 2px solid;">
-            <img style="object-fit: cover; width: 100px;" src="assets/img/sonic.jpg" alt="">
-            <img style="height:50px" src="assets/img/ticket1.png" alt="">
+            <img style="object-fit: cover; width: 100px;" src="asset/img/sonic.jpg" alt="">
+            <img style="height:50px" src="asset/img/ticket1.png" alt="">
             <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
         </div>
         <div style="display: flex; flex-direction: row; gap: 20px; padding: 10px; border-bottom: gray 2px solid;">
-            <img style="object-fit: cover; width: 100px;" src="assets/img/sonic.jpg" alt="">
-            <img style="height:100px" src="assets/img/ticket2.png" alt="">
+            <img style="object-fit: cover; width: 100px;" src="asset/img/sonic.jpg" alt="">
+            <img style="height:100px" src="asset/img/ticket2.png" alt="">
             <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
         </div>
         <div style="display: flex; flex-direction: row; gap: 20px; padding: 10px; border-bottom: gray 2px solid;">
-            <img style="object-fit: cover; width: 100px;" src="assets/img/sonic.jpg" alt="">
-            <img style="height:100px" src="assets/img/ticket3.png" alt="">
+            <img style="object-fit: cover; width: 100px;" src="asset/img/sonic.jpg" alt="">
+            <img style="height:100px" src="asset/img/ticket3.png" alt="">
             <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <div style="background-color: blue; padding: 20px 30px;">
     <div style="display: flex; height: 200px; align-items: start; margin-top: 20px; justify-content:space-around;">
-        <img src="assets/img/logo.png" alt="" style="width: 230px;">
+        <img src="asset/img/logo.png" alt="" style="width: 230px;">
         <ul style="color:#fff;">
             <h2>Navigation</h2>
             <li>
