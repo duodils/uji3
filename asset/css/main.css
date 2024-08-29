@@ -43,7 +43,7 @@ html{
     height: auto;
 }
 
-.menu-icon{
+.nav .menu-icon{
     display: none;
     font-size: 30px;
     color: white;
@@ -59,14 +59,13 @@ html{
 }
 
 .ul-item li{
-
     list-style: none;
 }
 
 .ul-item li a{
-    color: white;
     font-size: 1.2rem;
     font-family: 'Lusitana', serif;
+    color: white;
     text-decoration: none;
 }
 

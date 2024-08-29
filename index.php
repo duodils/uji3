@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/css/reset.css">
 </head>
 
 <body>
@@ -76,13 +77,14 @@
             <!-- about -->
 
             <!-- ticket -->
-
+            <?php require ('includes/ticket.php')?>
             <!-- layour-->
             <?php require ('includes/layout.php')?>
             <!-- gallery -->
             <?php require ('includes/gallery.php')?>
 
             <!-- footer -->
+            <?php include("includes/footer.php") ?>
         </div>
     </div>
 </body>
