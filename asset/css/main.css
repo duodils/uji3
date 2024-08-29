@@ -153,7 +153,33 @@ html{
     letter-spacing: 1rem;
 }
 
-/* SUBHOME */
+
+/* MODAL */
+
+.modal{
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+    background-color: #fff;
+    max-width: 80vh;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    /* SUBHOME */
+    z-index: 999;
+}
 
 .sub-home{
     display: flex;
@@ -201,6 +227,12 @@ html{
     float: right;
     z-index: 1;
     position: relative;
+    transition: background-color 0.3s, transform 03.s;
+}
+
+.sub-home .content-1 .deskripsi .button:hover{
+    background-color: yellow;
+    transform: scale(1.1);
 }
 
 .album{
@@ -304,7 +336,7 @@ html{
     align-items: center;
     width: 100vw;
     height: auto;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 .layout .judul{
@@ -331,11 +363,48 @@ html{
     align-items: center;
     width: 100vw;
     height: auto;
-    margin-bottom: 20px;
+    margin: 70px 0 20px 0;
     gap: 20px;
 }
 
 .gallery .content{
     display: flex;
     gap: 20px;
+}
+
+/* ABOUT */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin:100px 0;
+    gap: 40px;
+    box-sizing: border-box;
+}
+
+.about img{
+    width: 400px;
+    height: auto;
+}
+.content-about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Montserrat', serif;
+    width: 60%;
+}
+
+.content-about .info-about button{
+    padding: 15px 50px;
+    background-color: purple;
+    border: 0;
+    color: white;
+
+}
+.content-about .info-about{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
