@@ -2,7 +2,7 @@
     <div style="width: 60%;">
         <div style="display: flex; flex-direction:column; gap: 10px; margin: 30px; font-family: 'Montserrat', serif;">
             <h4 style="font-size: 30px; font-weight: 800;">Gold vip</h4>
-            <img src="asset/img/tiket.jfif" alt="">
+            <img src="asset/img/tikett.jfif" alt="">
             <div style="padding: 20px; border: orange 2px solid;">
                 <div style="border-bottom: 2px orange solid;">
                     <div style="align-items: center;display: flex; justify-content: space-between;">
