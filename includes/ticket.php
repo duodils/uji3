@@ -1,4 +1,4 @@
-<div style="display: flex; flex-direction: row; gap: 50px; margin:20px">
+<div id="ticket" style="display: flex; flex-direction: row; gap: 50px; margin:20px">
     <div style="width: 60%;">
         <div style="display: flex; flex-direction:column; gap: 10px; margin: 30px;">
             <h4>Gold vip</h4>
@@ -16,10 +16,18 @@
                         <p>price</p>
                         <h3>IDR 7.650.000,00</h3>
                     </div>
-                    <div style="align-items: center;display: flex;">
-                        <h4>0</h4>
-                        <button style=" height: 30px; padding: 0 20px; margin: 10px; background-color: blue; color: #fff;">+</button>
-                    </div>
+                    <?php
+                    if (isset($_POST["qty"])) {
+                        $qty = $_POST["qty"];
+                    } else {
+                        $qty = 0;
+                    }
+                    ?>
+                    <form action="#ticket" method="post" style="align-items: center;display: flex;">
+                        <h4><?= $qty++ ?></h4>
+                        <input type="hidden" name="qty" value="<?= $qty++ ?>">
+                        <button type="submit" style="cursor: pointer; height: 30px; padding: 0 20px; margin: 10px; background-color: blue; color: #fff;">+</button>
+                    </form>
                 </div>
                 <div style="border-bottom: 2px orange solid; align-items: center; display: flex;justify-content: space-between;">
                     <div>
