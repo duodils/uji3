@@ -8,5 +8,5 @@
         <li><a href="#layout">Layout</a></li>
         <li><a href="#gallery">Gallery</a></li>
     </ul>
-    <img src="asset/img/user.png" alt="" class="user">
+    <a href="login.php"><img src="asset/img/user.png" alt="" class="user"></a>
 </nav>
